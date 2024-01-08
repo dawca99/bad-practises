@@ -1,0 +1,24 @@
+File157.py:
+
+1) Zmiana nazwy pliku na taką, która sugeruje sposób działania programu (w tym przypadku najlepiej main)
+2) Polecenie "import" powinno się znajdować na początku pliku
+3) Zamiast polecenia "open" lepiej użyć "with open" - nie trzeba się martwić o zamknięcie pliku, dodatkowo można ograniczyć liczbę poleceń
+4) Funkcja "enumerate" występuje już w drugim pliku, można ją zaimportować
+5) Deklaracja zmiennych powinna być na początku kodu
+6) Skrócenie nazw zmiennych ("the_variable_that_contains_next_approximations_of_pi_from_generator")
+7) Zmiana nazw zmiennych na bardziej sugerujące sposób działania ("hello", "pIgEn3")
+8) "except" powinnien zwracać informację, jaki błąd wystąpił
+9) Przy używaniu .__next__ oraz next() powinno się używać jednego stylu
+10) Kod może zostać skrócony przez umieszczenie niektórych poleceń w pętli
+11) Warto stosować odstępy między niektórymi liniami - większa przejrzystość kodu
+
+
+File87.py: PiContainer
+1) Zmiana nazwy pliku na taką, która sugeruje sposób działania programu (w tym przypadku np. PiContainer.py)
+2) Przy nazywaniu klas najlepiej używać CamelCase
+3) Zmiana nazw zmiennych na bardziej sugerujące sposób działania
+4) Bardzo długi komentarz - lepiej postarać  się o jego skrócenie albo przeniesienie do kolejnej linii
+5) Nazwa funkcji "enumerate" nadpisuje funkcję z biblioteki standardowej
+6) Warto stosować odstępy między niektórymi liniami - większa przejrzystość kodu
+7) Zbędne polecenia: "print('All functions are defined')" oraz "yield 'finished'"
+8) Niewłaściwa deklaracja zmiennych b oraz c - global
